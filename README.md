@@ -1,4 +1,4 @@
-TWRP device tree for Xiaomi 14 Pro (shennong)
+# TWRP device tree for Xiaomi 14 Pro (shennong)
 
 ```
 #
@@ -9,24 +9,19 @@ TWRP device tree for Xiaomi 14 Pro (shennong)
 #
 ```
 
-Device information
+## Device information
 
-Device| Xiaomi 14 Pro
-Codename| shennong
-Manufacturer| Xiaomi
-SoC| Qualcomm Snapdragon 8 Gen 3 (SM8650)
-Maintainer| Katilmamiofficial
+| Device | Xiaomi 14 Pro |
+|-------|---------------|
+| Codename | shennong |
+| Manufacturer | Xiaomi |
+| SoC | Qualcomm Snapdragon 8 Gen 3 (SM8650) |
+| Maintainer | Katilmamiofficial |
 
-Description
+## Description
 
 This repository contains the device tree used to build TWRP (Team Win Recovery Project) for Xiaomi 14 Pro.
 
-Build instructions
-
-source build/envsetup.sh
-lunch omni_shennong-eng
-mka recoveryimage
-
-Maintainer
+## Maintainer
 
 Katilmamiofficial
